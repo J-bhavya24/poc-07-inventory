@@ -1,23 +1,10 @@
-name: Build
+sonar.projectKey=J-bhavya24_poc-07-inventory
+sonar.organization=j-bhavya24
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    types: [opened, synchronize, reopened]
+sonar.sources=app
+sonar.tests=tests
 
-jobs:
-  sonarqube:
-    name: SonarQube
-    runs-on: windows-latest
+sonar.python.version=3.12
+sonar.sourceEncoding=UTF-8
 
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v8
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+sonar.scm.exclusions.disabled=true
