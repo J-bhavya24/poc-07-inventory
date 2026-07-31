@@ -1,0 +1,22 @@
+[
+  "tests/test_api.py::test_dashboard",
+  "tests/test_api.py::test_low_alerts",
+  "tests/test_api.py::test_product_details",
+  "tests/test_api.py::test_products",
+  "tests/test_api.py::test_supplier_catalog",
+  "tests/test_database.py::test_po_model",
+  "tests/test_database.py::test_product_model",
+  "tests/test_database.py::test_stock_level",
+  "tests/test_official_db.py::test_po_unique",
+  "tests/test_official_db.py::test_sku_unique",
+  "tests/test_official_db.py::test_stock_level_unique",
+  "tests/test_official_db.py::test_stock_movement_link",
+  "tests/test_unit.py::test_low_stock_alert",
+  "tests/test_unit.py::test_no_alert_above_reorder",
+  "tests/test_unit.py::test_out_of_stock_alert",
+  "tests/test_unit.py::test_po_number",
+  "tests/test_unit.py::test_quantity_available",
+  "tests/test_unit.py::test_sku_categories",
+  "tests/test_unit.py::test_sku_format",
+  "tests/test_unit.py::test_stock_value"
+]
